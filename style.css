@@ -164,3 +164,120 @@ body{
     object-fit: cover;
     object-position: 50% 75%;
 }
+
+
+
+
+
+
+
+
+
+
+.tiulo-servicios h2{
+    font-weight: bold;
+    font-size: 55px;
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+
+.tiulo-servicios p{
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    margin-top: 0;
+}
+
+
+
+
+
+
+
+/* CONTENEDOR DE SERVICIOS */
+.soluciones {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    max-width: 1400px;
+    margin: 70px auto 0;
+
+    column-gap: 60px;
+    row-gap: 60px;
+
+    justify-items: center;
+}
+
+
+/* TARJETAS */
+.soluciones > div {
+    width: 400px;
+    padding-bottom: 30px;
+
+    background-color: #F3F0EB;
+    border-radius: 35px;
+
+    overflow: hidden;
+}
+
+
+/* IMÁGENES */
+.soluciones img {
+    display: block;
+
+    width: 100%;
+    height: 300px;
+
+    object-fit: cover;
+}
+
+
+/* DESCRIPCIONES */
+.soluciones p {
+    margin: 0 30px 25px;
+
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+
+/* TÍTULOS */
+.soluciones .titulo-cocinas,
+.soluciones .titulo-banos,
+.soluciones .titulo-barras,
+.soluciones .titulo-cubiertas,
+.soluciones .titulo-instalacion,
+.soluciones .titulo-asesoria {
+    margin: 30px 30px 8px;
+
+    font-size: 42px;
+    line-height: 1.1;
+    font-weight: bold;
+}
+
+
+/* BOTÓN VER MÁS */
+.soluciones a {
+    display: inline-block;
+
+    margin-left: 30px;
+    padding: 10px 20px;
+
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+
+    color: #F3F0EB;
+    background-color: #1D1D1A;
+
+    border-radius: 12px;
+
+    cursor: pointer;
+}
+
+
+/* EFECTO DEL BOTÓN */
+.soluciones a:hover {
+    color: #1D1D1A;
+    background-color: #E1C28C;
+}
