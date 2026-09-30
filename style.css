@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: #1D1D1A;
+}
+
+body{
+    margin: 0;
+}
+
+.eslogan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F5F2EB;
+    margin-left: 20px;
+}
+
+.eslogan h1{
+    font-size: 80px;
+    margin: 10px 0 0;
+}
+
+.eslogan p{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 30px;
+    transform: translateY(-10px);
+}
+.opcioneshead{
+    display: flex;
+    align-items: center;
+    color: #F5F2EB;
+    margin-left: auto;
+    margin-right: 10px;
+    font-size: 25px;
+    gap: 50px;
+}
+
+.opcioneshead a{
+    text-decoration: none;
+    color: #F5F2EB;
+}
+
+.opcioneshead .botonwhats{
+    border: solid;
+    border-radius: 35px;
+    color: black;
+    border-color: #E1C28C;
+    background-color: #E1C28C;
+    font-weight: bold;
+    padding: 25px;
+    text-decoration: none;
+}
+
+.presentacion{
+    background-image: url(imagenes/cocina.webp);
+    height: 1000px;
+    background-size: cover;
+    background-position: 75% 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.caja-presentacion{
+    margin-left: 70px;
+    width: 700px;
+}
+
+.caja-presentacion h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #F5F2EB;
+    font-size: 85px;
+}
+
+.caja-presentacion p{
+    color: #F5F2EB;
+    margin-top: 0;
+    font-size: 40px;
+}
+
+.boton-ver-proyectos, .boton-cotiza-ahora{
+    font-size: 40px;
+    border: solid;
+    border-radius: 35px;
+    border-color: #F5F2EB;
+    color: #F5F2EB;
+    padding: 25px;
+    text-decoration: none;
+}
+
+.boton-ver-proyectos:hover, .boton-cotiza-ahora:hover{
+    color: black;
+    background-color: #E1C28C;
+    border-color: #E1C28C;
+}
+
+.caja-de-beneficios img {
+    width: 100px;
+}
+
+.caja-de-beneficios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.caja-de-beneficios div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.muestra{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-color: #F3F0EB; 
+    height: 450px;
+}
+
+.texto-muestra{
+    width: 650px;
+    margin-left: 70px;
+}
+
+.muestra h2{
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.muestra p{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.muestra a{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 25px;
+    border: solid;
+    border-radius: 35px;
+    color: black;
+    border-color: #E1C28C;
+    background-color: #E1C28C;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.muestra img{
+    border-radius: 50px;
+    height: 350px;
+    width: 450px;
+    object-fit: cover;
+    object-position: 50% 75%;
+}
