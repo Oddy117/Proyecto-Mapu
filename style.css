@@ -12,7 +12,9 @@ body{
     margin: 0;
 }
 
-.eslogan{
+
+/*-----------------index.html-------------------*/
+.eslogan{ 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,7 +83,8 @@ body{
 
 .caja-presentacion p{
     color: #F5F2EB;
-    margin-top: 0;
+    margin-top: 30px;
+    margin-bottom: 50px;
     font-size: 40px;
 }
 
@@ -91,7 +94,7 @@ body{
     border-radius: 35px;
     border-color: #F5F2EB;
     color: #F5F2EB;
-    padding: 25px;
+    padding: 10px 20px;
     text-decoration: none;
 }
 
@@ -172,7 +175,7 @@ body{
 
 
 
-
+/*------------------servicios.html------------------*/
 
 .tiulo-servicios h2{
     font-weight: bold;
@@ -188,60 +191,37 @@ body{
     margin-top: 0;
 }
 
-
-
-
-
-
-
-/* CONTENEDOR DE SERVICIOS */
 .soluciones {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
     max-width: 1400px;
     margin: 70px auto 0;
-
     column-gap: 60px;
     row-gap: 60px;
-
     justify-items: center;
 }
 
-
-/* TARJETAS */
 .soluciones > div {
     width: 400px;
     padding-bottom: 30px;
-
     background-color: #F3F0EB;
     border-radius: 35px;
-
     overflow: hidden;
 }
 
-
-/* IMÁGENES */
 .soluciones img {
     display: block;
-
     width: 100%;
     height: 300px;
-
     object-fit: cover;
 }
 
-
-/* DESCRIPCIONES */
 .soluciones p {
     margin: 0 30px 25px;
-
     font-size: 18px;
     line-height: 1.4;
 }
 
-
-/* TÍTULOS */
 .soluciones .titulo-cocinas,
 .soluciones .titulo-banos,
 .soluciones .titulo-barras,
@@ -249,35 +229,147 @@ body{
 .soluciones .titulo-instalacion,
 .soluciones .titulo-asesoria {
     margin: 30px 30px 8px;
-
     font-size: 42px;
     line-height: 1.1;
     font-weight: bold;
 }
 
-
-/* BOTÓN VER MÁS */
 .soluciones a {
     display: inline-block;
-
     margin-left: 30px;
     padding: 10px 20px;
-
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
-
     color: #F3F0EB;
     background-color: #1D1D1A;
-
     border-radius: 12px;
-
     cursor: pointer;
 }
 
-
-/* EFECTO DEL BOTÓN */
 .soluciones a:hover {
     color: #1D1D1A;
     background-color: #E1C28C;
+}
+
+
+
+
+
+
+/*-----------------galerias.html-------------------*/
+
+.presentacion-galerias h2{
+    font-weight: bold;
+    font-size: 55px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+
+.presentacion-galerias p{
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    margin-top: 0;
+}
+
+.opciones-galerias{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    gap: 30px;
+    margin-left: 50px;
+}
+
+.opciones-galerias a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: #F3F0EB;
+    border: #F3F0EB;
+    border-radius: 35px;
+    padding: 10px 40px;
+}
+
+.opciones-galerias a:hover {
+    color: #F3F0EB;
+    background-color: black;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 90%;
+    max-width: 1930px;
+    margin: 30px auto;
+    grid-auto-rows: 300px;
+    
+}
+
+.galeria img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    object-position: 75% 85%;
+}
+
+.galeria img:nth-child(4) {
+    grid-row: span 2;
+}
+
+.ver-mas-proyectos a{
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 25px;
+    border: solid;
+    border-radius: 35px;
+    color: black;
+    border-color: #E1C28C;
+    background-color: #E1C28C;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.ver-mas-proyectos{
+    display: flex;
+    justify-content: center;
+}
+
+/*-----------------cotiza.html-------------------*/
+
+.presentacion-cotiza h2{
+    font-weight: bold;
+    font-size: 55px;
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+
+.presentacion-cotiza p{
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    margin-top: 0;
+}
+
+
+
+
+/*-----------------contacto.html-------------------*/
+
+.presentacion-contacto h2{
+    font-weight: bold;
+    font-size: 55px;
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+
+.presentacion-contacto p{
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    margin-top: 0;
 }
